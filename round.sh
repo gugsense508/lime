@@ -122,4 +122,3 @@ sudo apt-get autoclean
 sudo apt-get autoremove
 swapoff -a && swapon -a
 echo "Deploy Finish"
-Footer
